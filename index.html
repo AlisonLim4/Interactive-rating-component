@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- GOOGLE FONTS  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <!-- CSS  -->
+  <link rel="stylesheet" href="./index.css">
+  <title> Interactive rating component | Frontend Mentor </title>
+
+</head>
+
+<body>
+  <main>
+    <section class="main__background">
+      <div class="main__content">
+
+        <div class="rate-display">
+          <div class="rate-display__star">
+            <img src="./images/icon-star.svg" alt="Star icon">
+          </div>
+
+          <div class="copy__title">
+            <h1>How did we do?</h1>
+          </div>
+
+          <div class="copy__content">
+            <p> Please let us know how we did with your support request. All feedback is appreciated
+              to help us improve our offering!</p>
+          </div>
+
+          <div class="score">
+            <ul>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+            </ul>
+            <div class="submit-button">
+              <button id="button">submit</button>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="thank-you-display hidden">
+          <!-- thanks window -->
+          <div class="thank-you__img">
+            <img src="./images/illustration-thank-you.svg" alt="Thank you image">
+          </div>
+
+          <div class="feedback">
+          </div>
+
+          <div class="thank-you__title">
+            <h1>Thank You!</h1>
+          </div>
+          <div class="acknowledged">
+            <p>We appreciate you taking the time to give a rating. If you ever need more support,
+              don’t hesitate to get in touch!</p>
+          </div>
+        </div>
+
+
+    </section>
+  </main>
+
+  <footer class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>,
+    Coded by <a class="attribution__link" href="https://github.com/AlisonLim4" target="_blank" rel="noopener noreferrer"> Alison Lima</a>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

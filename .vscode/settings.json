@@ -1,0 +1,27 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Dracula",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.trimAutoWhitespace": true,
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "editor.lineHeight": 1.75,
+  "editor.formatOnSave": true,
+  "editor.minimap.renderCharacters": false,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "breadcrumbs.filePath": "off",
+  "outline.icons": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "html.format.wrapAttributes": "auto",
+  "html.format.wrapLineLength": 0,
+  "html.autoClosingTags": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "liveServer.settings.port": 5501
+}
