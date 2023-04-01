@@ -41,14 +41,20 @@ li {
 
 /* --- MAIN --- */
 .main__content {
-  background: linear-gradient(
-    180.03deg,
-    #252d37 0.03%,
-    rgba(37, 45, 55, 0) 221.73%
-  );
+  /* border: 1px solid red; */
+  background: linear-gradient(45deg, #252d37 0.03%, #252d3700 221.73%);
   padding: 24px 24px 32px 24px;
   border-radius: 20px;
   width: 327px;
+}
+/* --- STAR ICON ---  */
+.rate-display__star {
+  background-color: #272e38;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
 }
 
 /* --- TITLE --- */
@@ -96,7 +102,7 @@ li.select {
 /* --- BUTTON --- */
 .submit-button button {
   width: 100%;
-  margin-top: 14px;
+  margin-top: 32px;
   padding-top: 12px;
   padding-bottom: 12px;
   font-size: 1.4rem;
